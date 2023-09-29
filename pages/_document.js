@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Max Walts',
     description: "I'm a senior studying Business and Computer Science at Michigan.",
-    image: '/images/portrait.jpg'
+    image: '/images/cover.jpg'
   }
 
   return (
