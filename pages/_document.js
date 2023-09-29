@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Max Walts',
     description: "I'm a senior studying Business and Computer Science at Michigan.",
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: '/images/portrait.jpg'
   }
 
   return (
