@@ -14,7 +14,7 @@ import Link from 'next/link'
 
 Storepeeker is a Shopify spy tool that helps sellers find top-selling stores and products. I built it in 6 weeks and got 60 business users before shutting it down due to a change in Shopify's endpoints.
 
-[Link to site](https://storepeeker.com)
+[Go to project](https://storepeeker.com)
 
 ---
 
