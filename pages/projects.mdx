@@ -20,15 +20,19 @@ import Link from 'next/link'
     
     <Image
       src="/images/storepeeker.png"
-      alt="Photo"
+      alt="Storekeeper preview"
       width={1927}
       height={737}
       priority
       className="next-image"
     />
     <div className="div-container">
-      <Link href="https://storepeeker.com"> Go to project</Link>
-      <a > Read post →</a>
+      <a 
+      onClick={(e) => e.stopPropagation()}
+      href="https://storepeeker.com"> 
+      Go to project
+      </a>
+      <a> Read post →</a>
     </div>
   </div>
 </Link>
@@ -37,18 +41,31 @@ import Link from 'next/link'
 
 ---
 
-{/* <Link href="/posts/area-lp"> */}
-  {/* <div style={{ cursor: 'pointer' }}> */}
+<Link href="/posts/area-lp">
+  <div style={{ cursor: 'pointer' }}>
     ## Area Liquor Printer
-    Inventory and price management mobile app | Jun - Aug 2023
+    Vertical SaaS for liquor stores in Michigan | Jun - Aug 2023
+
+    <Image
+      src="/images/lp-preview.png"
+      alt="Photo"
+      width={1927}
+      height={737}
+      priority
+      className="next-image"
+    />
 
     <div className="div-container">
-      <Link href="https://www.liquorprinter.com/"> Go to project</Link>
-      {/* <a > Read post →</a> */}
+      <a 
+        href="https://apps.apple.com/us/app/area-liquor-printer/id6460588987"
+        onClick={(e) => e.stopPropagation()}
+      > 
+        Download the App
+      </a>
+      <a> Read post →</a>
     </div>
-    
-  {/* </div> */}
-{/* </Link> */}
+  </div>
+</Link>
 ---
 
 {/* <Link href="/posts/shortformgpt">

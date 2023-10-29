@@ -72,4 +72,5 @@ img.next-image {
 .div-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }

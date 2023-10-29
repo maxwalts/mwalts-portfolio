@@ -3,7 +3,7 @@ title: "Project: Storepeeker"
 date: 2023/09/15
 description: A spy tool that helps sellers find top-selling Shopify stores and products.
 tag: web, project
-# author: You
+author: Max
 ---
 
 import Image from 'next/image'
@@ -20,7 +20,7 @@ Storepeeker is a Shopify spy tool that helps sellers find top-selling stores and
 
 <Image
   src="/images/storepeeker.png"
-  alt="Photo"
+  alt="Product screeenshots from a pitch deck"
   width={1927}
   height={737}
   priority
@@ -34,7 +34,7 @@ First, I wrote a Node.js server to scrape data from Shopify stores, manage track
 I sent the reports over email to early users to get feedback.
 <Image
   src="/images/email-example.png"
-  alt="Photo"
+  alt="email report example"
   width={1436}
   height={1286}
   priority
@@ -53,12 +53,33 @@ Features
 
 I launched on Twitter and got 100+ likes and 60 signups. I got a lot of great feedback and feature requests.
 
+As I continued to refine the web scraper, the data became very accurate. It was fascinating to monitor popular stores and see when they were seeing the most traffic during the day. The challenge was to turn these data into insights that could help the users of Storepeeker increase sales on their stores.
+
+<Image
+  src="/images/wildone-24hr.png"
+  alt="Graph showing sales over time for a store"
+  width={1000}
+  height={600}
+  className="next-image"
+/>
+
 Then, tragedy struck. After hitting an undocumented Shopify endpoint at over 2,000 requests/minute for a few weeks, Shopify changed the endpoint to make it impossible for me to collect sales numbers. 
 
-Not only did this break my app, it broke several other 'shopify spy' apps like dropship.io with millions of monthly users. I can't be sure that my app was the cause of the change, but it is possible. 
+Not only did this break my app, it broke several other 'shopify spy' apps like dropship.io and simplytrends which had millions of monthly users. I can't be sure that the high volume of my requests triggered the change, but it is possible. 
+
+<Image
+  src="/images/chat-1.png"
+  alt="Screenshot of a chat showing that sales tacking is no longer working"
+  width={1532}
+  height={1060}
+  className="next-image"
+/>
 
 Since sales tracking was the flagship feature of the app, I decided to shut it down. At some point, I might rebuild it with a different approach to estimate sales numbers based on other factors.
 
 I learned about the dangers of building on undocumented APIs. I also learned how to get a product to market quickly and get better feedback from real users. 
 
 I shut down the servers so you won't be able to sign up but you can still check out the [landing page.](https://storepeeker.com)
+
+## Update (10/29/2023)
+I have since found a way to get revenue data again, so I might pick up this project again in the future.
