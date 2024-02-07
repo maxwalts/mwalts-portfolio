@@ -26,7 +26,7 @@ Liquor printer is a mobile app for the Area platform, which lets Liquor stores m
   className="next-image"
 />
 
-This project was bootstrapped by an entrepreneur from Michgian, [Jake Lewin](https://www.linkedin.com/in/jake-lewin). The idea was validated by extensive customer interviews performed by the CEO and an operations hire in Ann Arbor. I was hired to launch the mobile app and get us to our first paying users.
+This project was bootstrapped by an entrepreneur from Michgian, [Jake Lewin](https://www.linkedin.com/in/jake-lewin). The idea was validated by extensive customer interviews performed by the CEO and an operations hire in Ann Arbor. I was brought on to launch the mobile app and get us to our first paying users.
 
 Features
 - Scan a barcode on a bottle to pull up information on the product and send a tag to be printed
